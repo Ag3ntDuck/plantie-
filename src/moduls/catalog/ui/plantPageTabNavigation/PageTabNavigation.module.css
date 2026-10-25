@@ -1,0 +1,54 @@
+.tabNavigationWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.tabFavorite  {
+   width: 100%;
+}
+
+.tabFavorite svg {
+    width: 24px;
+}
+
+.tabFavorite > button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(244, 242, 233, 0.7);
+    border: none;
+
+}
+
+
+.navigationList {
+    margin-top: 16px;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgba(244, 242, 233, 0.7);
+    border: none;
+
+
+}
+
+.navigationList > button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.navigationList svg {
+
+    width: 16px;
+    height: 16px;
+}
+
+.navigationList > button:last-child {
+    margin-bottom: 16px;
+}

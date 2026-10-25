@@ -1,0 +1,10 @@
+.profile-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 4fr 1fr;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    gap: 32px
+}

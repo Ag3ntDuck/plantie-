@@ -1,0 +1,80 @@
+.categoriesButton {
+
+    position: relative;
+    z-index: 99;
+}
+.categoriesModal {
+
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrapperNavigation {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.navigationCategories {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navigationSearch {
+    width: 35%;
+    height: 60%;
+    gap: 16px;
+}
+
+.navigationFavorite {
+
+    height: 60%;
+    width: 5%;
+}
+
+
+.navigationLogin {
+
+    display: flex;
+    gap: 8px;
+}
+
+.buttonLink {
+
+    height: 60%;
+    width: 5%;
+}
+
+.navigationFavorite {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.navigationCategories  button {
+    padding: 0;
+    gap: 8px;
+
+}
+
+.navigationCategories  button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.wrapperNavigation svg {
+    width: 24px;
+
+}

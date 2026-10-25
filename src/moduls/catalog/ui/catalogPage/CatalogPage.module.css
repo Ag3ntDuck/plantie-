@@ -1,0 +1,23 @@
+.catalogWrapper {
+    margin-top: 80px;
+    display: flex;
+    gap: 32px;
+}
+
+.pageWrapper {
+    flex-direction: column;
+    margin-top: 80px;
+    display: flex;
+    width: 1440px;
+    height: 100%;
+
+}
+
+.pageWrapper h1 {
+    font-size: 42px;
+}
+
+.rest {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,13 @@
+:root {
+    /* font size */
+    --font-size-l: 32px;
+    --font-size-m: 24px;
+
+
+
+    /* colors */
+    --color-main-text: #486E48;
+    --color-highlight: #486E48;
+    --color-bg: #FDFCFA;
+    --color-brand: #C7E9DC;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Philosopher-Regular;
+    src: url('../../../../assets/fonts/Philosopher-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: Philosopher-Bold;
+    src: url('../../../../assets/fonts/Philosopher-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Philosopher-Italic;
+    src: url('../../../../assets/fonts/Philosopher-Italic.ttf') format("truetype");
+    font-style: normal;
+    font-display: swap;
+}

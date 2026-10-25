@@ -1,0 +1,23 @@
+.profileFavoriteWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 32px;
+}
+
+.profileCardTabsWrapper {
+    display: flex;
+    background-color: rgba(244, 242, 233, 0.7);
+    border-radius: 9999px;
+    width: max-content;
+
+}
+
+.profileFavoriteButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileFavoriteButtons h1 {
+    font-size: 32px;
+}

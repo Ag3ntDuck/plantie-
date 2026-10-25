@@ -1,0 +1,68 @@
+.plantPageWrapper {
+    margin-top: 80px;
+    max-width: 1440px;
+    width: 100%;
+    height: calc(100vh - 101px);
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 0.5fr 1.1fr 0.3fr;
+    gap: 44px;
+}
+
+.imageWrapper {
+    height: max-content;
+}
+
+.imageBigWrapper {
+    background-color: rgba(199, 233, 220, 0.2);
+    height: max-content;
+    border-radius: 30px 30px;
+}
+
+.imageSmallWrapper {
+    background-color: rgba(199, 233, 220, 0.2);
+    height: 15%;
+    border-radius: 0 0 30px 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);;
+    overflow-x: scroll;
+    display: flex;
+    scrollbar-width: none
+}
+
+.imageSmallWrapper > img {
+    width: 5em;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.pagePlantAboutContentWrapper {
+    position: relative;
+}
+
+.pagePlantAboutContentWrapper > svg:nth-child(1) {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    top: 0;
+    left: 0;
+    transform: translateX(-20%);
+}
+
+.pagePlantAboutContentWrapper > svg:nth-child(2) {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    top: 0;
+    right: 0;
+    transform: translateX(20%);
+}
+
+.plantPageTabContentWrapper {
+    height: 100%;
+}
+
+
+

@@ -1,0 +1,20 @@
+.plantName {
+    font-size: 2em;
+}
+
+.plantLatinName {
+    font-size: 1em;
+    font-family: Philosopher-Italic, sans-serif;
+}
+
+.plantNameGenderWrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.plantNameWrapper {
+    display: flex;
+    justify-content: space-between;
+}

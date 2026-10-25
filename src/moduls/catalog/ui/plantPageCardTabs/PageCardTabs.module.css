@@ -1,0 +1,5 @@
+.pageCardTabsWrapper {
+    display: flex;
+    background-color: rgba(244, 242, 233, 0.7);
+    border-radius: 9999px;
+}

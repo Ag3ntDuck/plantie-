@@ -1,0 +1,36 @@
+.primary {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(244, 242, 233, 0.7);
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+}
+
+.secondary {
+    display: flex;
+    align-items: center;
+    background-color: #F5F7F6;
+    border-radius: 9999px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 16px;
+}
+
+.withoutBg {
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    padding: 8px 16px;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(199, 233, 220, 0.1);
+    font-family: Philosopher-bold, sans-serif;
+}
+
+

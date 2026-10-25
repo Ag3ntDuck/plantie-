@@ -1,0 +1,11 @@
+.pageCardContentWrapper {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 35px;
+    color: #486E48;
+    height: 400px;
+    overflow-y: auto;
+
+
+}

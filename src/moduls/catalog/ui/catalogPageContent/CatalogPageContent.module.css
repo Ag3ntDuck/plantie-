@@ -1,0 +1,16 @@
+.cardsWrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+    margin-bottom: 64px;
+
+
+}
+
+.cardsWrapper a {
+    width: 100%;
+}

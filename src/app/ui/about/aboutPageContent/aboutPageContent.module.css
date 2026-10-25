@@ -1,0 +1,26 @@
+.wrapperAbout {
+    display: flex;
+    gap: 64px;
+    max-width: 1440px;
+
+    width: 100%;
+
+}
+
+.wrapperHeader {
+    margin-bottom: 64px;
+    font-size: 64px;
+}
+
+.wrapperParagraph {
+    font-size: 32px;
+}
+
+
+.test {
+    flex: 1.5
+}
+
+.test2 {
+    flex: 1;
+}

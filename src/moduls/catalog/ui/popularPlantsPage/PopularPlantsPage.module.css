@@ -1,0 +1,28 @@
+.popularWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 100%;
+    margin-top: 80px;
+}
+
+.popularWrapper h1 {
+    margin-bottom: 80px;
+}
+
+.cardsWrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 32px;
+
+
+
+}
+
+.cardsWrapper a {
+    width: 100%;
+}
